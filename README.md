@@ -4,6 +4,9 @@
 
 ```
 npm install -D tailwindcss
+npm install -D prettier-plugin-tailwindcss
+npm install -D @tailwindcss/forms
+
 npx tailwindcss init
 ```
 
