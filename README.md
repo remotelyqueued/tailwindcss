@@ -4,6 +4,8 @@
 
 ```
 npm install -D tailwindcss
+npm install -D @tailwindcss/typography
+npm install -D prettier-plugin-tailwindcss
 npx tailwindcss init
 ```
 

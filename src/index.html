@@ -12,6 +12,28 @@
         <link href="/dist/output.css" rel="stylesheet" />
     </head>
     <body>
-        <h1 class="text-3xl font-bold underline">Hello world!</h1>
+        <main class="bg-slate-50 dark:bg-slate-900">
+            <article class="mx-auto max-w-5xl py-40">
+                <h1
+                    class="text-center text-6xl font-bold text-slate-900 dark:text-slate-100"
+                >
+                    A tour of the new features in the typography plugin
+                </h1>
+                <div
+                    class="prose-pre:text-idigo-800 prose prose-slate mx-auto mt-16 prose-p:text-indigo-500 prose-a:text-teal-600 hover:prose-a:text-teal-500 prose-pre:bg-indigo-100 prose-img:rounded-2xl prose-img:shadow-md dark:prose-invert dark:hover:prose-a:text-teal-400 dark:prose-pre:bg-indigo-900"
+                >
+                    {{ markdown | safe }}
+                    <hr />
+                    <p>You can override styles directly with utilities</p>
+                    <a href="">A link</a>
+                    <pre>
+                        Some text ...
+                    </pre>
+                    <pre class="not-prose">
+                        More text
+                    </pre>
+                </div>
+            </article>
+        </main>
     </body>
 </html>
